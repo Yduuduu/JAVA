@@ -20,6 +20,6 @@ public class _10_10872 {
 	public static int factorial(int N) {
 		if(N <= 1) return result;
 		result *= N;
-		return N * factorial(N - 1);		
+		return factorial(N - 1);		
 	}
 }
